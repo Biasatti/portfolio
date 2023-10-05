@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Santiago Correia</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos!! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Portfolio para el curso de Desarrollo Web de la Fundación Sociedades Digitales-->
+    <!-- Dictado por Laura Villena -->
+    <!-- Octubre 2023 -->
+
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Santi Correia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <a href="https://www.youtube.com/shorts/dCcEM1EMNAE" class="btn btn-primary" target="_blank">Coordinemos un Meet!</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-texto">
+                <h2 class="hero_h2">&#128075, soy Santi Correia.</h2>
+                <p class="hero_p">Bienvenidx a mi Portfolio de Desarrollador Web!</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio - Carousel de imagenes -->
+    <section>
+        <div class="container mt-5 pt-4" >
+        <h1 class="text-center" id="portfolio">Portfolio</h1>
+    </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <div class="carousel slide carousel-dark" id="mi-carousel"  data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid" src="images/carousel1.png" alt="">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img class="img-fluid" src="images/carousel2.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/carousel3.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Controles -->
+                    <button 
+                        class="carousel-control-prev" 
+                        type="button" 
+                        data-bs-target="#mi-carousel"
+                        data-bs-slide="prev"
+                        >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                    </button>
+
+                    <button 
+                    class="carousel-control-next" 
+                    type="button" 
+                    data-bs-target="#mi-carousel"
+                    data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button 
+                        type="button"
+                        data-bs-target="#mi-carousel"
+                        class="active"
+                        data-bs-slide-to="0"
+                        aria-label="Slide 1"
+                        >
+                    </button>
+
+                    <button 
+                        type="button"
+                        data-bs-target="#mi-carousel"
+                        class=""
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                        >
+                    </button>
+
+                    <button 
+                        type="button"
+                        data-bs-target="#mi-carousel"
+                        class=""
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                        >
+                    </button>
+
+
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Sobre mí -->       
+        <div class="container mt-5" id="about">
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <img src="images/sobremi.jpg" alt="fotodeperfil" class="img-fluid img-thumbnail rounded-circle mb-4" width="200">
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="mb-4">Acerca de Mí</h2>
+                    <p>
+                        Soy Santiago, vivo en Buenos Aires, Argentina y tengo 33 años. En mi portfolio vas a encontrar proyectos que se destacan por la creación de experiencias digitales únicas.
+                        Mi objetivo es combinar creatividad y funcionalidad para diseñar sitios web que impacten y satisfagan las necesidades de mis clientes.
+                    </p>
+                    <p>
+                        Además soy docente y músico. Tengo un proyecto musical que se llama La Costumbre y que te invito a escuchar debajo de esta sección.
+                    </p>
+                    <p>
+                        Siempre estoy en busca de nuevos desafíos y oportunidades para aprender y crecer en el campo del diseño web. ¡Espero que podamos trabajar juntos!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- La Costumbre / Spotify Playlist -->
+        <div class="container mt-5">
+        <h1 class="text-center">Escuchá mi música!</h1>
+        <div class="d-flex justify-content-center">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4UTs4bogZ5yVUI9JaBSG10?utm_source=generator&theme=0" width="70%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </div>
+
+
+    <!-- Contacto 2.0 -->
+    <div class="container mt-5" id="contacto">
+        <h1 class="text-center mb-3">Contacto</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8 mb-3 text-center">
+                <p>
+                    Estoy disponible para colaboraciones profesionales en proyectos de desarrollo web. 
+                    Si estás interesado en trabajar juntos, por favor, ponete en contacto conmigo a través del formulario. 
+                    Me gustaria poder ayudarte!
+                </p>
+            </div>
+            <div class="col-md-6">
+                <form action="">
+                    <div class="form-group mb-1">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Ingrese su nombre" id="nombre">
+                    </div>
+                    <div class="form-group mb-1">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" placeholder="Ingrese su apellido" id="apellido">
+                    </div>
+                    <div class="form-group mb-1">
+                        <label for="empresa" class="form-label">Empresa</label>
+                        <input type="text" class="form-control" placeholder="Ingrese el nombre de la empresa que representa" id="empresa">
+                    </div>
+                    <div class="form-group mb-1">
+                        <label for="correo" class="form-label">Correo</label>
+                        <input type="text" class="form-control" placeholder="Ingrese su correo electrónico" id="correo">
+                    </div>
+                    <div class="form-group mb-1">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea name="mensaje" placeholder="Escriba su mensaje aquí" id="mensaje" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary mb-1 mt-2">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-6 bg-dark text-white p-5">
+                <h1 class="text-center text-white">Info</h1>
+                <h5><i class="fas fa-map-marker"></i> Dirección:</h5>
+                <p>Balcarce 78, Buenos Aires, Argentina</p>
+                <h5><i class="fas fa-envelope"></i> Correo Electrónico:</h5>
+                <p>santiagocorreia.89@gmail.com</p>
+                <h5><i class="far fa-clock"></i> Horario de Atención (Horario Argentina):</h5>
+                <p>Lunes a Viernes: 9:00 AM - 5:00 PM</p>
+            </div>            
+        </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <div class="container pt-4 mt-5">
+          <section class="mb-4">
+
+        <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.instagram.com/lacostumbre_/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+        <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.linkedin.com/in/santiagocorreia/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </section>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="copyright">
+            <span>© 2020 Copyright:</span> <span>Santiago Correia</span>
+        </div>        
+      </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
